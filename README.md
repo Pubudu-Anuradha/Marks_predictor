@@ -7,10 +7,9 @@ A program to predict the marks of a student according to the number of hours spe
 - [flaskapp.py](flaskapp.py) and the files in the directories [static](static/) and [templates](templates/) are used for a flask webapp that predicts marks according to user input.
 
 ## Setting up Flask Webapp
-After the following prerequisites are met, clone this repository and run the file [flaskapp.py](flaskapp.py) 
-Use a webbrowser and navigate to [http://localhost:4000/](http://localhost:4000/) to use the app.
+After the following prerequisites are met, clone this repository and run the file [flaskapp.py](flaskapp.py). Use a webbrowser and navigate to [http://localhost:4000/](http://localhost:4000/) to use the app.
 
-### Prereqisites for Flask webapp
+### Prerequisites for Flask webapp
 The program was made with [Python 3.9.6](https://www.python.org/downloads).
 The following pacakges need to be installed
 
