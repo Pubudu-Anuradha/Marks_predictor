@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 
 hscores=pd.read_csv("student_scores.csv")

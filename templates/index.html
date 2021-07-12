@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Marks Predictor</title>
+        <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+    </head>
+    <body>
+        <center>
+            <h1>Enter the number of hours you studied</h1><br>
+            <form action="/predict" method="POST">
+                <input type="number" value ={{ prev }} min=1.0 name="hours" step=0.1 class="num"><br>
+                <button type="submit" class="sub"><b>Submit</b></button>
+            </form>
+            <br>
+            <div class="res">
+                <h3>{{ score }}</h3>
+            </div>
+        </center>
+    </body>
+</html>
