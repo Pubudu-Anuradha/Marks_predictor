@@ -2,9 +2,9 @@
 A program to predict the marks of a student according to the number of hours spent studying using ML.
 
 ## Program structure
-- The colab notebook *PredictMarks.ipynb* demonstrates the model used for prediction.
+- The colab notebook *PredictMarks.ipynb* and *predictmarks.py* demonstrates the model used for prediction.
 - *student_scores.csv* containes the values used to train the linear regression model used in the program.
-- *predictmarks.py* and the files in the directories **static** and **templates** are used for a flask webapp that predicts marks according to user input.
+- *flaskapp.py* and the files in the directories **static** and **templates** are used for a flask webapp that predicts marks according to user input.
 
 ## Setting up Flask Webapp
 After the following prerequisites are met, clone this repository and run the file flaskapp.py 
