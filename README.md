@@ -13,10 +13,12 @@ Use a webbrowser and navigate to [http://localhost:4000/](http://localhost:4000/
 ### Prereqisites for Flask webapp
 The program was made with [Python 3.9.6](https://www.python.org/downloads).
 The following pacakges need to be installed
+
 - Pandas
 - Scikit Learn
 - Flask
+
 Run the following command in a terminal to install them
-'''
+```
 pip install pandas sklearn flask
-'''
+```
